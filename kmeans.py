@@ -82,7 +82,7 @@ def kmeans(inputs, k, max_iter, tol):
 
     while (iterations < max_iter) or (tol < shift):
 
-        print("\n iterations: ", iterations)
+        # print("\n iterations: ", iterations)
         # Assign examples to new clusters
         centroid_indices = assign_step(inputs, centroids)
         # Get new list of centroids form clusters
